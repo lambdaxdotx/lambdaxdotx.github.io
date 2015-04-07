@@ -21,8 +21,7 @@ years. Despite the fact I rather like Albert Camus' interpretation of life
 in ["The myth of
 Sisyphus"](http://en.wikipedia.org/wiki/The_Myth_of_Sisyphus), its
 practicing felt quite alienating. By the way, in case you enjoy reading
-mathematical nonsense, my dissertation is [here]({{ site.baseurl }}{{
-site.data }}main.pdf).
+mathematical nonsense, my dissertation is [here]({{ site.baseurl }}{{ site.data }}main.pdf).
 
 Before that, I got a double Master's degree in Computer Science from [ENS
 de Lyon](http://www.ens-lyon.eu/) and [Università di
