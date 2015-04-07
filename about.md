@@ -6,15 +6,12 @@ navlink: about
 navtitle: about
 ---
 
+Hey there!
+
 <p class="message"><strong>Disclaimer:</strong> I like overdramatising and
 making fun of myself. Keep this in mind.</p>
 
-Hey there!
-
-I am a talented [drama queen](http://en.wiktionary.org/wiki/drama_queen)
-with poor to none self-confidence.
-
-Before this state of mind, I got a PhD in Mathematics from [Aix-Marseille
+I got a PhD in Mathematics from [Aix-Marseille
 Université](http://www.univ-amu.fr/) and in Computer Science from
 [Università di Bologna](http://www.unibo.it/). I worked on esoteric
 algebraic (in the sense of vector spaces) extensions of the [pure
@@ -24,8 +21,8 @@ years. Despite the fact I rather like Albert Camus' interpretation of life
 in ["The myth of
 Sisyphus"](http://en.wikipedia.org/wiki/The_Myth_of_Sisyphus), its
 practicing felt quite alienating. By the way, in case you enjoy reading
-mathematical nonsense, my dissertation is
-[here]({{ site.baseurl }}{{ site.data }}main.pdf).
+mathematical nonsense, my dissertation is [here]({{ site.baseurl }}{{
+site.data }}main.pdf).
 
 Before that, I got a double Master's degree in Computer Science from [ENS
 de Lyon](http://www.ens-lyon.eu/) and [Università di
@@ -36,7 +33,7 @@ have led me to study type systems and foundations of computer science
 
 Realised that I am not capable enough of doing fundamental research in
 computer science, I am now chasing professional happiness as a software
-engineer, while pursuing my dramatic lifestyle.
+engineer, while pursuing an overdramatic lifestyle.
 
 During the day, I normally try to play around with the
 [OCaml](http://www.ocaml.org/) and [Haskell](http://www.haskell.org/)
