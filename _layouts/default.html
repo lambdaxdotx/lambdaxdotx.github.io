@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
+<html class="no-js" lang="en-us" >
+
+  {% include head.html %}
+
+  <body>
+    <!-- Using Foundation's grid -->
+    <div class="row">
+      <div class="medium-9 columns">
+        <div class="row">
+          <!-- title -->
+          <div class="medium-10 medium-offset-2 columns">
+            <h1 class="head-title"><a class="head-title" href="{{ site.baseurl }}">{{ site.title }}</a></h1>
+            <h3 class="head-title"><small>{{ site.tagline }}</small></h3>
+          </div> <!-- title end -->
+          <!-- navigation -->
+          <div class="medium-10 medium-offset-2 columns">
+            <ul class="inline-list head-nav">
+	      {% for ord in (1..2) %}  {% for p in site.pages %} {% if p.order == ord %}
+	      <li><a {% if p.url == page.url %}class="active"{% endif %} href="{{ site.baseurl }}{{ p.navlink }}">{{ p.navtitle }}</a></li>
+	      {% endif %} {% endfor %} {% endfor %}
+            </ul>
+          </div> <!-- navigation end -->
+        </div>
+      </div>
+      <div class="medium-3 columns"></div>
+    </div>
+
+    <div class="container content">
+      {{ content }}
+    </div>
+
+    <footer>
+      <p class="footer" align="center">&copy; {{ site.author.name }} 2015<br /> version {{ site.version }}</p>
+    </footer>
+
+    <!-- Foundation's JS -->
+    <script src="{{ site.baseurl }}public/js/vendor/jquery.js"></script>
+    <script src="{{ site.baseurl }}public/js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>

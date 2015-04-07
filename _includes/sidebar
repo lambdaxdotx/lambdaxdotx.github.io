@@ -1,0 +1,19 @@
+<div class="sidebar">
+  <a href="{{ site.baseurl }}{{ site.about }}"><img class="me" src="{{ site.baseurl }}{{ site.images }}me.png"/></a>
+  <h4>Michele Alberti</h4>
+  {% if page.title != "About me" %}
+  <ul class="sidebar">
+    <li class="sidebar">PhD in Maths at <a class="sidebar" href="{{ site.baseurl }}{{ site.about }}">AMU</a></li>
+    <li class="sidebar">PhD in CS at <a class="sidebar" href="{{ site.baseurl }}{{ site.about }}">UniBo</a></li>
+    <li class="sidebar">Postdoc at <a class="sidebar" href="{{ site.baseurl }}{{ site.about }}"> &hellip; </a></li>
+  </ul>
+  {% else %}
+  <ul class="sidebar">
+  <li class="sidebar">Via M. D'Azeglio 10</li>
+  <li class="sidebar">Castelplanio (AN)</li>
+  <li class="sidebar">60031 ITALY</li>
+  {% endif %}
+  <a rel="me" href="https://twitter.com/lambdaxdotx"><img src="{{ site.baseurl }}{{ site.icons }}twitter_16.png" alt="me on Twitter"/></a>
+  <a href="http://www.linkedin.com/in/lambdaxdotx"><img src="{{ site.baseurl }}{{ site.icons }}linkedin_16.png" alt="me on LinkedIn"/></a>
+  <a rel="me" href="https://github.com/lambdaxdotx"><img src="{{ site.baseurl }}{{ site.icons }}github_16.png" alt="me on GitHub"/></a>
+</div>

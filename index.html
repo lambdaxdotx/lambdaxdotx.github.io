@@ -1,1 +1,39 @@
-Hello World
+---
+layout: default
+title: Home
+order: 1
+navlink:
+navtitle: home
+---
+
+<div class="row rowcustom">
+  <div class="medium-9 columns">
+    {% assign counter = 0 %}
+    {% for post in site.posts %}
+    {% assign counter = counter | plus: 1 %}
+    <div class="row">
+      <div class="medium-2 columns">
+        <h5 class="post-date" align="right">{{ post.date | date: "%e %B %Y" }}</h5>
+      </div>
+      <div class="medium-10 columns">
+        <h2><a class="post-title" href="{{ post.url }}">{{ post.title }}</a></h2>
+        {{ post.excerpt }}
+        <hr>
+        <!-- <br /> -->
+      </div>
+    </div>
+    {% endfor %}
+    {% if counter == 0 %}
+    <div class="row">
+      <div class="medium-2 columns"></div>
+      <div class="medium-10 columns">
+        <h2>Nothing yet.</h2><br /><br />
+	<p>Stay tuned though, this site will change your life :-)</p>
+      </div>
+    </div>
+    {% endif %}
+  </div>
+  <div class="medium-3 columns">
+    {% include sidebar %}
+  </div>
+</div>

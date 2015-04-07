@@ -1,0 +1,33 @@
+# Dependencies (redcarpet)
+markdown:            kramdown
+highlighter:         pygments
+
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+#permalink: /:categories/:title
+permalink:           pretty
+relative_permalinks: true
+
+# Setup
+title:               AfterMath
+tagline:             'A pinch of (computer) science in a drama sauce.'
+description:         'A blog on (computer) science & drama.'
+url:                 http://lambdaxdotx.github.io
+baseurl:             http://lambdaxdotx.github.io/
+
+# Directories
+about:		     about/
+images:		     images/
+icons:		     icons/
+data:		     data/
+
+# About/contact
+author:
+  name:              Michele Alberti
+  url:               https://twitter.com/lambdaxdotx
+  email:             
+
+# Custom vars
+version:             1.0.0
+excerpt_separator:   <!--more-->
