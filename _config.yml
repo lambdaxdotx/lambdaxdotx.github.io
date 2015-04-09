@@ -21,6 +21,7 @@ about:		     about/
 images:		     images/
 icons:		     icons/
 data:		     data/
+phd:		     phd/
 
 # About/contact
 author:
