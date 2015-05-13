@@ -22,7 +22,7 @@ along with the following invited members:
 * [Lionel Vaux](http://iml.univ-mrs.fr/~vaux/)
 * [Ugo Dal Lago](http://cs.unibo.it/~dallago/)
 
-#### Abstract
+#### Abstract:
 
 In this thesis we deal with the operational behaviours of two quantitative
 extensions of pure &#x3BB;-calculus, namely the *algebraic
@@ -50,5 +50,5 @@ relations is achieved on pure &#x3BB;-terms. The resulting equality is that
 induced by Lévy-Longo trees, generally accepted as the finest extensional
 equivalence on pure &#x3BB;-terms under a lazy regime.
 
-#### Documents: [Thesis]({{ site.baseurl }}{{ site.data }}main.pdf) and [Slides]({{ site.baseurl }}{{ site.data }}slides.pdf).
+#### Documents: [Manuscript]({{ site.baseurl }}{{ site.data }}main.pdf) and [Slides]({{ site.baseurl }}{{ site.data }}slides.pdf).
 

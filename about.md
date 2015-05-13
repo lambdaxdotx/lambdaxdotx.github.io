@@ -30,7 +30,7 @@ studies. I have been trapped by shining mathematical abstractions, that
 have led me to study type systems and foundations of computer science
 ({&#x3BB;,&pi;}-calculus, linear logic, etc.).
 
-Realised that I am not capable enough of doing fundamental research in
+Realised that I am not capable enough for doing fundamental research in
 computer science, I am now chasing professional happiness as a software
 engineer, while pursuing an overdramatic lifestyle.
 
@@ -48,5 +48,4 @@ See ya!
 
 Built using [Jekyll](http://jekyllrb.com) and [Zurb
 Foundation](http://foundation.zurb.com) on [GitHub
-Pages](http://pages.github.com) (after [Amir
-Chaudhry's](http://amirchaudhry.com)).
+Pages](http://pages.github.com) (after [Amir Chaudhry's](http://amirchaudhry.com)).
