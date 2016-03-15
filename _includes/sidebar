@@ -5,7 +5,7 @@
   <ul class="sidebar">
     <li class="sidebar"><a class="sidebar" href="{{ site.baseurl }}{{ site.phd }}">PhD</a> in Maths at <a class="sidebar" href="{{ site.baseurl }}{{ site.about }}">AMU</a></li>
     <li class="sidebar"><a class="sidebar" href="{{ site.baseurl }}{{ site.phd }}">PhD</a> in CS at <a class="sidebar" href="{{ site.baseurl }}{{ site.about }}">UniBo</a></li>
-    <li class="sidebar">Postdoc at <a class="sidebar" href="{{ site.baseurl }}{{ site.about }}"> &hellip; </a></li>
+    <li class="sidebar">Working at <a class="sidebar" href="{{ site.baseurl }}{{ site.about }}"> &hellip; </a></li>
   </ul>
   {% else %}
   <ul class="sidebar">
