@@ -1,13 +1,12 @@
 # Dependencies (redcarpet)
 markdown:            kramdown
-highlighter:         pygments
+highlighter:         rouge
 
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
 #permalink: /:categories/:title
 permalink:           pretty
-relative_permalinks: false
 
 # Setup
 title:               AfterMath
