@@ -44,7 +44,7 @@ Twice a week I find myself happy while giving my best at
 
 See ya!
 
-###About this site
+### About this site ###
 
 Built using [Jekyll](http://jekyllrb.com) and [Zurb
 Foundation](http://foundation.zurb.com) on [GitHub
