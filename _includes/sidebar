@@ -9,9 +9,17 @@
   </ul>
   {% else %}
   <ul class="sidebar">
+  <li class="sidebar"><b>When in Italy:</b></li>
   <li class="sidebar">Via M. D'Azeglio 10</li>
-  <li class="sidebar">Castelplanio (AN)</li>
+  <li class="sidebar">Castelplanio (Ancona)</li>
   <li class="sidebar">60031 ITALY</li>
+  </ul>
+  <ul class="sidebar">
+  <li class="sidebar"><b>When in France:</b></li>
+  <li class="sidebar">Rue Poussin</li>
+  <li class="sidebar">Paris (Île-de-France)</li>
+  <li class="sidebar">75016 FRANCE</li>
+  </ul>
   {% endif %}
   <a rel="me" href="https://twitter.com/lambdaxdotx"><img src="{{ site.baseurl }}{{ site.icons }}twitter_16.png" alt="me on Twitter"/></a>
   <a href="http://www.linkedin.com/in/lambdaxdotx"><img src="{{ site.baseurl }}{{ site.icons }}linkedin_16.png" alt="me on LinkedIn"/></a>
