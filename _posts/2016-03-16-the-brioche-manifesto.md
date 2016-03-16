@@ -45,7 +45,7 @@ manifesto for our private scientific meetings (*refinements may follow*):
   the attendees to interact,
 
 - the speaker should write a short write-up of the chosen paper to be
-  posted on Michele's (*this*) website. A beer will act as pledge.
+  posted on Michele's website (*this*). A beer will act as pledge.
 
 Since I am hosting, I have decided to name "**After a brioche at the Go
 corner**" this series of meetings and the related reports.
