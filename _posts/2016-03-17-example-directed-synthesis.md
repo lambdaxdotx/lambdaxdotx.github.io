@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Example-Directed Synthesis&#58; a Type-Theoretic Interpretation
+title: "Example-Directed Synthesis: a Type-Theoretic Interpretation"
 author: michele
 tags: program synthesis, type theory, proof search, refinement types
 published: true
