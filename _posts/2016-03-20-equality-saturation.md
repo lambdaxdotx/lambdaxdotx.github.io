@@ -77,6 +77,7 @@ but only *add* these expressions to the same *equivalence class*.
 The optimizer works on a representation of programs as program expression
 graphs (PEGs). This is a kind of cyclic data dependence graph with special θ
 nodes to represent loops. Here is a PEG for the looping program above:
+
 ![PEG for original program]({{ site.baseurl }}{{ site.images }}eqsat_orig.png)
 
 The θ node represents the sequence of values that an expression takes in a
@@ -90,6 +91,7 @@ This graph can be extended to an E-PEG (PEG with equalities) by adding more
 nodes and using dashed *equivalence edges* to connect nodes that represent
 the same values. Here is the extended graph that we get by optimizing the
 multiplication by 5:
+
 ![E-PEG for the program with optimized multiplication by 5]({{ site.baseurl }}{{ site.images }}eqsat_1.png)
 
 (In this graphical representation the order of the operands of the shift
@@ -119,6 +121,7 @@ be added. In practice, the growth of the graph must be limited to avoid
 uncontrollable blow-up.
 
 Applying the two axioms above yields the following graph:
+
 ![E-PEG for the program after strength reduction]({{ site.baseurl }}{{ site.images }}eqsat_2.png)
 
 After the saturation step, the graph represents not one but *many*
