@@ -75,8 +75,8 @@ deduction. Soundness among the calculi is proved to hold.
 
 This choice is quite natural as sequent calculus is a better fit when
 dealing with proof search, since it provides some handy properties such as
-the subformula property (there is no cut rule in sequent calculus),
-invertible rules and focusing.
+the *subformula property* (there is no *cut rule* in sequent calculus),
+*invertible rules* and *focusing*.
 
 This is indeed a smart move as a well-established foundational theory and
 semantics is known to entail good properties in the originated
@@ -86,7 +86,7 @@ variety of additional feature"* (*i.e.* base types, algebraic datatypes,
 parametric polymorphism, etc.). They even integrate to some extent
 libraries into the synthesis process.
 
-The author show that their synthesizer *"[...] is competitive with
+The authors show that their synthesizer *"[...] is competitive with
 state-of-the-art example-directed systems"*, while *"[...] able to condense
 the specifications, commonly seeing decreases of 10-20% compared to
 previous work.".* When polymorphism is possible, they achieve *"even more
@@ -95,22 +95,22 @@ dramatic specification reductions sometimes nearing 75%."*.
 This is mainly due to the support of base types (like `nat`) as valid
 refinements, union types and parametric polymorphism. The first permits to
 describe generic datatype values in a concise way like, for instance,
-non-empty lists as `Cons(nat x list)`. The second, unions, permits to combine
-refinements into larger types, eliminating some redundancy. Using
-disjunctions, the first to cases of the `decrement` function specification
+non-empty lists as `Cons(nat x list)`. The second, unions, permits to
+combine refinements into larger types, eliminating some redundancy. Using
+disjunctions, the first two cases of the `decrement` function specification
 
               0 -> 0 && 1 -> 0 && 2 -> 1
 
 can be narrowed down to `(0 || 1) -> 0`. This is true even for inductively
-defined datatype, such as list, when refinements share constructors. *"For
-instance, lists `[0,1]` and `[0]` can be combined into `Cons(0 x (Nil ||
-Cons(1 x Nil)))`."*. The latter, parametric polymorphism, helps in
-describing terse specifications and eases synthesis because of the "free
-theorems" that polymorphic types imply.
+defined datatypes, such as lists, when refinements share
+constructors. *"For instance, lists `[0,1]` and `[0]` can be combined into
+`Cons(0 x (Nil || Cons(1 x Nil)))`."*. The latter, parametric polymorphism,
+helps in describing terse specifications and eases synthesis because of the
+"free theorems" that polymorphic types imply.
 
 Negation is not part of the refinement types language here. They are
-encoded with De-Morgan's laws though as negations are important when
-refining specification after a first synthesis failure. Indeed, consider
+encoded with De-Morgan's laws though, as negations are important when
+refining specifications after a first synthesis failure. Indeed, consider
 once again the above specification for the `length` function. That can be
 seen as the specification for the `head` function as well (as *GB* has
 explained sometime during my presentation). Authors *"[...] offer a similar
