@@ -58,13 +58,12 @@ exploit decades of research in type theory as well as its correspondence
 with intuitionistic logic rather than designing ad hoc theoretical
 frameworks for synthesis."*.
 
-<div class="message"> Note that there are two apparently different notions
-of refinement types out there. One stemming from Freeman and Pfenning's
-work (here put in use) and the other from Jhala et al.'s (which is the base
-for the so-called liquid types). The latter should imply the former as it
-provides existentials (<em>i.e.</em> infinite disjunctions). This is only
-an intuition as I am not an expert on these matters.
-</div>
+<div class="message">Although somehow related, there are two apparently
+different notions of refinement types out there. The first, due to Freeman
+and Pfenning in "Refinement Types for ML", extends structural typing with
+the notions of intersection and union types (here put in use). The second,
+due to Flanagan in "Hybrid Type Checking", refines structural typing by
+means of decidable predicates.</div>
 
 The authors develop a *"[...] synchronized sequent calculus with
 intersection, union, function and syngleton types"* as the formalization
