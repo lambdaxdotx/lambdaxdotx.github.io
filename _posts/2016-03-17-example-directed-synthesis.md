@@ -45,7 +45,6 @@ example-driven synthesis in this kind of settings:
 
 - What is the semantical meaning of *examples*? In other words, is there a
   theoretical approach to reveal and exploit?
-
 - Example based spefications can be verbose, so much that one may wonder if
   it is faster and terser to code altogether. In light of the first
   question, how to define a rich specification language in order to express
@@ -146,13 +145,10 @@ There are some limitations. The authors point out that:
 - *"[...] the system does not automatically genereate helper functions --
   auxiliary recursive functions that take additional or different
   arguments."*,
-
 - synthesis of recursive functions requires *trace complete* refinements,
   *i.e.* refinements should also subsume specifications that clarify the
   results of structurally recursive calls,
-
 - the system *"[...] does not infer instantiation of polymorphic library
   functions"*,
-
 - *"the theoretical framework restricts the combination of union and
   intersection types"*.
