@@ -8,16 +8,17 @@ navtitle: about
 
 Hey there!
 
-Since December 2019, I am a research engineer at the
-[CEA-List](http://www-list.cea.fr/en/), in the Software Safety and Security Lab.,
-mostly working on [Frama-C](https://www.frama-c.com/).
+Since December 2019 I am a research engineer at
+[CEA-List](http://www-list.cea.fr/en/), in the Software Safety and Security
+Lab., mostly working on [Frama-C](https://www.frama-c.com/).
 
-Previously, I have been an engineer at TrustInSoft for two years with a focus on
+Previously, I have been a software engineer at
+[TrustInSoft](https://trust-in-soft.com/) for two years with a focus on
 developing static analysis tools.
 
-Even earlier, I have been a postdoc at the
-[CEA-List](http://www-list.cea.fr/en/), in the Software Safety and Security
-Lab., under the supervision of [Julien
+Even earlier, I have been a postdoc at [CEA-List](http://www-list.cea.fr/en/),
+in the Software Safety and Security Lab., working on a synthesis plug-in for
+[Frama-C](https://www.frama-c.com/), under the supervision of [Julien
 Signoles](http://julien.signoles.free.fr/).
 
 In late 2014, I got a PhD in Mathematics from [Aix-Marseille
